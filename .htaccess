@@ -1,0 +1,53 @@
+
+#ErrorDocument 404 http://www.gaia.com.pk/
+#ErrorDocument 403 http://www.gaia.com.pk/
+#ErrorDocument 500 http://www.gaia.com.pk/
+
+Options -Indexes
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} ^gaia\.com.pk$ [NC]
+#RewriteRule ^(.*)$ http://www.gaia.com.pk/$1 [QSA,L,R=301]
+
+
+## Redirect to control panel
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(cp|admin|webadmin)/$ /bistroware/control/ [L,R=301]
+
+
+## XML News/RSS Feed/Sitemap
+RewriteCond %{REQUEST_URI} !^/control/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^news/$ /bistroware/xml/news.php [L]
+
+RewriteCond %{REQUEST_URI} !^/control/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^sitemap.xml$ /bistroware/xml/sitemap.php [L]
+
+
+## NEWS Detail Pages
+RewriteCond %{REQUEST_URI} !^/control/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^news/(.*)\.html$ /bistroware/index.php?Page=news.html&News=$1.html [L]
+
+
+## ALL Html Pages
+RewriteCond %{REQUEST_URI} !^/control/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /bistroware/index.php?Page=$1.html [L,QSA]
+
+
+## ALL Php Pages
+RewriteCond %{REQUEST_URI} !^/control/
+RewriteCond %{REQUEST_URI} !^/ajax/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.php$ /bistroware/index.php?Page=$1.php [L,QSA]

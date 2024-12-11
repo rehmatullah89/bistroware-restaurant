@@ -1,0 +1,338 @@
+* { margin: 0; padding: 0; }
+
+body { background: #272727; font-size: 62.5%; font-family: Tahoma, Arial, sans-serif; color: #333;}
+
+img { border:0; }
+
+p { font-size: 1.2em; line-height: 1.3em; margin-bottom: 10px; }
+
+h1 { font-size: 2.5em; line-height: 2.0em; color: #545454; letter-spacing: -0.04em; }
+
+/** containers **/
+#wrap { width: auto; margin: 0 auto; /*background: #d7dfe0;*/ background-color: white; border-radius: 7px; height: 100%; overflow: hidden;}
+#wrap header 
+{ 
+/*    border-bottom: 1px solid #b6bdbe; 
+    margin: 15px 22px; 
+    margin-bottom: 35px; 
+    position: relative;  
+    background: #272727; 
+    border-radius: 10px; 
+    padding: 20px; 
+    padding-right: 25px !important;
+    */
+    height: 50px;
+    margin-top: -10px; 
+    background: #272727; 
+    padding: 20px 15px 20px 15px;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #b6bdbe; 
+}
+
+#wrap footer { border-top: 1px solid #b6bdbe; padding-bottom: 40px; margin: 15px 22px;  }
+
+#wrap header .list-style-buttons { position: fixed; right: 0; margin-left: 30px; padding: 10px;}
+
+div.Floorview { 
+    white-space:nowrap;
+    display: inline-block;
+    overflow: auto; 
+    max-width: 100%;
+    min-height: 650px;
+}
+/** list view **/
+ul.list { 
+    margin-top: 110px;
+    margin-left: 20px;
+    list-style: none; 
+    white-space:nowrap;
+    display: inline-block;
+    overflow: scroll;
+    max-width: 100%;
+    min-height: 800px;
+    max-height: 800px;
+    background: white;
+}
+
+ul.list li { 
+	display: inline-block;
+        vertical-align: top;
+	/*background: #c9d0d1;*/
+        font-family: Arial Bold;
+        background: #363B45;
+	max-width: 275px;
+	padding: 5px 5px; 
+	margin-bottom: 20px; 
+        margin-right: 10px;
+	margin-top: 5px;
+        border-radius: 10px;
+}
+
+ul.list li.alt { background: #363B45; }
+
+ul.list li section.left { display: block;  float: left; width: 350px; position: relative; padding-left: 20px; margin-bottom: 10px;}
+ul.list li section.right { display: block; width: 200px; text-align: right; }
+
+
+.HoverIcon:hover {
+    background-image: url('images/icons/done1.png'), url('images/icons/done1.png');
+}
+
+
+ul.list li section.left span.thumb { float: left; margin-left: -18px; margin-right: 10px; background-color: #363B45; padding: 10px; font-size: 14px; font-weight: bold; color: white; width:95px; border-radius: 5px; border: 1px solid white;}
+ul.list li section.left img.featured-banner { position: absolute; left: -18px; top: 35px; }
+
+ul.list li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.6em; word-wrap:break-word; width: 100px !important;} 
+ul.list li section.left span.meta { color: #93989b; font-weight: normal; font-size: 1.1em; }
+
+
+ul.list li section.right span.price { font-weight: bold; display: block; margin-bottom: 15px; padding: 5px; font-size: 1.6em; text-align: right; }
+
+ul.list li section.right a.firstbtn { margin-right: 7px; }
+
+/** grid view **/
+ul.grid { 
+    list-style:   none; 
+    margin:       0 auto; 
+    padding-left: 5px; 
+   /* min-height: 650px; */    
+    margin-left:  20px; 
+    margin-top:   110px;
+    overflow:     scroll;
+    min-height:   800px;
+    max-height:   800px;
+    background:   white; 
+    
+    /*
+    margin-top: 110px;
+    margin-left: 20px;
+    list-style: none; 
+    white-space:nowrap;
+    display: inline-block;
+    overflow: scroll;
+    max-width: 100%;
+    max-height: 500px;
+    background: white;
+    */
+}
+
+ul.grid li 
+{ 
+    display: block; 
+    float: left; 
+    /*max-width: 300px; */
+    background: #363B45;
+    max-height: 250px; 
+    border-right: 1px solid #b6bdbe; 
+    padding: 5px 5px; 
+    margin-bottom: 20px; 
+    margin-right: 10px; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    overflow: auto;
+    border-radius: 10px;
+}
+
+ul.grid li.third { border: 0; }
+
+ul.grid li section.left { position: relative; }
+ul.grid li section.right { /* nothing */ }
+ul.grid li section.left span.thumb { float: left; margin-right: 10px; background-color: #363B45; padding: 10px; font-size: 14px; font-weight: bold; color: white; width:95px; border-radius: 5px; border: 1px solid white;}
+/*ul.grid li section.left img.featured-banner { position: absolute; top: 0; }*/
+
+ul.grid li section.left h3 { font-family: "Trebuchet MS", Arial, sans-serif; font-weight: bold; text-transform: uppercase; color: #707375; font-size: 1.4em; line-height: 1.5em; } 
+ul.grid li section.left span.meta { display: block; color: #93989b; font-weight: normal; font-size: 1.1em; margin-bottom: 7px; }
+
+
+ul.grid li section.right span.darkview { 
+    margin-top: 10px;
+    width: 190px; 
+/*opacity: 0;
+margin: 0; 
+position: absolute;
+top: 0; 
+left: 0; 
+width: 190px; 
+height: 200px;
+margin: 0 15px; 
+border-radius: 6px;
+background: rgba(40, 45, 55, 0.75); 
+overflow: hidden;
+text-align: center;
+padding-top: 35px;
+box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+transition: opacity 0.2s linear 0s;
+-webkit-transition: opacity 0.2s linear 0s;
+-moz-transition: opacity 0.25s linear 0s;
+-o-transition: opacity 0.25s linear 0s;  */
+}
+ul.grid li:hover section.right span.darkview { opacity: 1; }
+
+ul.grid li section.right span.darkview a.firstbtn { display: block; margin-bottom: 10px; }
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+table {
+    
+    font-family: verdana, arial, sans-serif;
+    border-collapse: collapse;
+    width: 270px;
+    font-size: 15px;
+    table-layout: fixed; 
+    padding: 5px;
+}
+
+tr {
+    color: white;
+    border-bottom: 1px solid #ffff;
+    text-align: left; 
+    width:150px;
+    padding: 10px; 
+    background-color: #B5C2CC;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+tr:hover {
+    background-color: lightslategray;
+}
+
+thead
+{
+    border-radius: 5px;
+}
+
+th {
+    text-align: left;   
+    background-color: white;
+    color: #0c3656;
+    padding: 2px;
+    margin-bottom: 5px;
+   
+}
+
+td:nth-child(1)
+{ 
+word-wrap: break-word;
+white-space: normal;
+}
+
+td:nth-child(2)
+{ 
+word-wrap: break-word;
+white-space: normal;
+}
+
+.SummaryTable
+{
+    min-height: 800px;
+}
+
+#SummaryTable
+{
+    width: 850px;
+    margin: 0 auto;    
+    color: black;
+}
+
+#SummaryTable tr {
+    color: #363B45;
+    border-bottom: 1px solid #363B45;
+    text-align: left; 
+    width:150px;
+    background-color: white;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    
+}
+
+#SummaryTable th
+{ 
+    padding:20px;
+    background: #363B45;
+    color: white;
+}
+
+#SummaryTable td
+{ 
+    padding:10px;
+}
+
+.btnClass
+{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+}
+
+.History {
+    background-image: url("../images/icons/history.png");
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.History1, .History:hover {
+    background: url("../images/icons/history1.png");
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.AllFloors {
+    background-image: url("../images/icons/All.png");
+}
+
+.AllFloors1, .AllFloors:hover {
+    background: url("../images/icons/All1.png");
+}
+
+.MazenineFloor {
+    background-image: url("../images/icons/Mazenine.png");
+}
+
+.MazenineFloor1, .MazenineFloor:hover {
+    background: url("../images/icons/Mazenine1.png");
+}
+
+.BasementFloor {
+    background-image: url("../images/icons/Basement.png");
+}
+
+.BasementFloor1, .BasementFloor:hover {
+    background: url("../images/icons/Basement1.png");
+}
+
+.Summary {
+    background-image: url("../images/icons/Summary.png");
+}
+
+.Summary1, .Summary:hover {
+    background: url("../images/icons/Summary1.png");
+}
+
+.GroundFloor {
+    background-image: url("../images/icons/Ground.png");
+}
+
+.GroundFloor1, .GroundFloor:hover {
+    background: url("../images/icons/Ground1.png");
+}
+
+.TableView {
+    background-image: url("../images/icons/TableView.png");
+}
+
+.TableView1, .TableView:hover {
+    background: url("../images/icons/TableView1.png");
+}

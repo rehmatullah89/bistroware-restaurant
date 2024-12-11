@@ -1,0 +1,64 @@
+[11-Oct-2018 02:27:02 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:27:02 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:27:02 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:27:02 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:28:35 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:28:35 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:28:35 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:28:35 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 16
+[11-Oct-2018 02:30:32 America/Chicago] PHP Notice:  Use of undefined constant FILE - assumed 'FILE' in /home/gaiapk/public_html/app/ios.php on line 13
+[11-Oct-2018 02:30:32 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:30:32 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:30:32 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:30:32 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:30:32 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 02:30:32 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 02:31:08 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:31:08 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:31:08 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:31:08 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:31:08 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 02:31:08 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 02:43:33 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:43:33 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:43:33 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:43:33 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 02:43:33 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 02:43:33 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:46:50 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:46:50 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:46:50 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:46:50 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:46:50 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:46:50 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:49:52 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:49:52 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:49:52 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:49:52 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:49:52 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:49:52 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:59:51 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:51 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:51 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:51 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:51 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:59:51 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:59:57 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:57 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:57 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:57 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 04:59:57 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 04:59:57 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 05:02:19 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:19 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:19 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:19 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:19 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 05:02:19 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 05:02:24 America/Chicago] PHP Warning:  stream_socket_client(): Unable to set private key file `/home/gaiapk/public_html/app/ios.pem' in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:24 America/Chicago] PHP Warning:  stream_socket_client(): failed to create an SSL handle in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:24 America/Chicago] PHP Warning:  stream_socket_client(): Failed to enable crypto in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:24 America/Chicago] PHP Warning:  stream_socket_client(): unable to connect to ssl://gateway.sandbox.push.apple.com:2195 (Unknown error) in /home/gaiapk/public_html/app/ios.php on line 19
+[11-Oct-2018 05:02:24 America/Chicago] PHP Notice:  Undefined variable: err in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 05:02:24 America/Chicago] PHP Notice:  Undefined variable: errstr in /home/gaiapk/public_html/app/ios.php on line 22
+[11-Oct-2018 05:05:35 America/Chicago] PHP Warning:  socket_close(): supplied resource is not a valid Socket resource in /home/gaiapk/public_html/app/ios.php on line 32
